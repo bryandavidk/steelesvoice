@@ -1,0 +1,27 @@
+/* ================================================================================================================================================================
+
+	About Global
+
+	This stylesheet defines the colors, typography, and layouts, a.k.a. the atoms, that every screen would share in common.
+
+	Combine these atoms to create a molecule. For example, a font and two colors could make a simple make button.
+
+	This folowing the Atomic Design Pattern by Brad Frost @brad_frost https://bradfrost.com/blog/post/atomic-web-design/
+
+
+	Author: Bryan Kearney,
+	Developer: Bryan Kearney, inspiried Brad Frost
+	Date: 03/2020
+	Version: 1.0
+
+================================================================================================================================================================
+*/
+
+/* Colors */
+
+:root {
+  --main-bg-color: #1A3548; /* Jet */
+  --main-txt-color: #faf5fa; /* Snow */
+	--light-bg-color: #e0f5ff; /* Alice blue */
+	--border-top-color: #87efb4; /* Seafoam green */
+}

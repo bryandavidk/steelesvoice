@@ -1,0 +1,193 @@
+/* ================================================================================================================================================================
+
+	About Main
+
+	This stylesheet is for the Main CSS
+
+
+	Author: Bryan Kearney,
+	Developer: Bryan Kearney
+	Date: 03/2020
+	Version: 1.0
+
+================================================================================================================================================================
+*/
+
+/*
+================================================================================================================================================================
+
+Layout
+
+================================================================================================================================================================
+*/
+
+html {
+  background-color: var(--main-bg-color);
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  height: auto;
+  background: url('../images/sound_background.jpg')repeat-x top;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 48px;
+  left: 0;
+  display: block;
+}
+
+  nav {
+      height: auto;
+      width: 320px;
+      margin: 0 auto;
+      display: block;
+  }
+
+  nav a {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--main-txt-color);
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  nav a:hover {
+    color: #ef87e7;
+    text-decoration: solid underline 2px;
+  }
+
+  nav a.selected {
+    color: #ef87e7;
+    text-decoration: solid underline 2px;
+  }
+
+.content {
+  height: auto;
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-right: 16px;
+  padding-bottom: 48px;
+  padding-left: 16px;
+  position: relative;
+  top: 120px;
+  left: 0;
+}
+
+/*
+================================================================================================================================================================
+
+Typography
+
+================================================================================================================================================================
+*/
+
+h1 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: .56rem;
+  font-size: 1.31rem;
+  text-align: center;
+  margin-top: 1rem;
+	color: var(--main-txt-color);
+}
+
+a.home_link {
+  text-decoration: none;
+}
+
+a.home_link:hover {
+  text-decoration: solid underline 2px;
+}
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .09rem;
+    font-size: .9rem;
+    text-align: center;
+    text-transform: uppercase;
+  	color: var(--main-txt-color);
+}
+
+a.link_list {
+  color: #87efb4;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+a.link_list:hover {
+    color: #ef87e7;
+    text-decoration: underline;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  color: #87efb4;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #87efb4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef87e7;
+  text-decoration: underline;
+}
+
+  #site_title {
+    margin-top: 0;
+  }
+
+a[href^="tel:"] {
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: .09rem;
+  font-size: .9rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-txt-color);
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+/*
+================================================================================================================================================================
+
+Accessories
+
+================================================================================================================================================================
+*/
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+hr {
+  height: 0;
+  border-bottom: .05rem solid white;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
